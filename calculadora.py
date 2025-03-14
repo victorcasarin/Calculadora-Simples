@@ -7,11 +7,9 @@ def soma(a, b):
 def subtracao(a, b):
     return a - b
 
-
 # Função para multiplicar
 def multiplicacao(a, b):
     return a * b
-
 
 # Função para dividir
 def divisao(a, b):
@@ -19,7 +17,6 @@ def divisao(a, b):
         return a / b
     else:
         return "Erro: Divisão por zero não permitida."
-
 
 # Função principal para escolher a operação
 def calculadora():
@@ -39,7 +36,6 @@ def calculadora():
         else:
             print('OPÇÃO INVÁLIDA. Tente novamente.')
 
-
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
 
@@ -53,7 +49,6 @@ def calculadora():
         print(f"Resultado: {divisao(num1, num2)}")
     else:
         print("Operação inválida.")
-
 
 # Chama a função principal
 calculadora()
